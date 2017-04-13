@@ -71,7 +71,7 @@ ModelImporter:
     4300018: pCube1
     4300020: pCube2
     4300022: pCube3
-    7400000: Take 001
+    7400000: fly
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -88,16 +88,74 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     animationCompression: 1
-    animationRotationError: 0.5
-    animationPositionError: 0.5
-    animationScaleError: 0.5
+    animationRotationError: 0.01
+    animationPositionError: 0.01
+    animationScaleError: 0.01
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: fly
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 5
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pSphere1
+        weight: 1
+      - path: pSphere1/inner_wing
+        weight: 1
+      - path: pSphere1/outer_wing
+        weight: 1
+      - path: pSphere1/pCube1
+        weight: 1
+      - path: pSphere1/pCube2
+        weight: 1
+      - path: pSphere1/pCube3
+        weight: 1
+      - path: pSphere1/polySurface3
+        weight: 1
+      - path: pSphere2
+        weight: 1
+      - path: pSphere2/inner_wing 1
+        weight: 1
+      - path: pSphere2/outer_wing 1
+        weight: 1
+      - path: pSphere2/pCube1 1
+        weight: 1
+      - path: pSphere2/pCube2 1
+        weight: 1
+      - path: pSphere2/pCube3 1
+        weight: 1
+      - path: pSphere2/polySurface3 1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0.8
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1

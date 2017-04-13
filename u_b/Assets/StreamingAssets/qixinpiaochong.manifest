@@ -1,0 +1,37 @@
+ManifestFileVersion: 0
+CRC: 3968531304
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3ba40e80e2ad2665a634c7f027c9b1aa
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 644b31dfaf2da482c58b4e5fb1351a2a
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefabs/qixinpiaochong_seed.prefab
+- Assets/Prefabs/qixinpiaochong.prefab
+Dependencies: []
