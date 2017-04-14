@@ -83,8 +83,8 @@ public static class WrapFile {
         _GT(typeof(Texture)),
         _GT(typeof(RenderTexture)),
         _GT(typeof(ParticleSystem)),
-        
-
+        _GT(typeof(GameConfig)),
+        _GT(typeof(LuaHelper))
         //ngui
         /*_GT(typeof(UICamera)),
         _GT(typeof(Localization)),

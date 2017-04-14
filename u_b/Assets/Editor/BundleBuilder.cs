@@ -17,7 +17,8 @@ public class BundleBuilder : Editor
         builds.Add(abb);
 
 
-        BuildPipeline.BuildAssetBundles("Assets/StreamingAssets", builds.ToArray(), BuildAssetBundleOptions.ChunkBasedCompression, BuildTarget.StandaloneWindows);
+        BuildPipeline.BuildAssetBundles("Assets/StreamingAssets", builds.ToArray(), 
+            BuildAssetBundleOptions.ChunkBasedCompression | BuildAssetBundleOptions.ForceRebuildAssetBundle , BuildTarget.StandaloneWindows64);
     }
 
 }
