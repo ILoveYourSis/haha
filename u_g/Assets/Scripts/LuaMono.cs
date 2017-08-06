@@ -1,2 +1,16 @@
-ßˆêý2Y]2¨^Z!ñ^T<æ$>_ý2Y]2¨I@!í,p:ä-UP!á.^@n…KE@<æ& é^G0ú'QP0³L:>_ø4R_<ëaS_4û2 é_]:¨{~:æ.rV=é7Y\ úaK>_¨a%ú(FR!íaCG4ü(Sý cP'á1D~2úao_&åa;ý-\X‚auø3_G0ë5UWuÄ4Q`6ú(@Gï3T0üERë3YC!Å&B|…Ku¨:=9u¨au¨aYU}×-C^uµ|] ä->_¨au¨aHX‚au¨au¨al9û,uæ$Gý cP'á1D~2úiX‚au¨au¨al9û,`!é3D|³L:u¨au¨<=9u¨au¨aBV!ý3^
-ä2]X‚auõL:NX‚
+ï»¿using UnityEngine;
+using System.Collections;
+using LuaInterface;
+
+public class LuaMono : MonoBehaviour {
+    private static LuaScriptMgr _lsm = null;
+    protected LuaScriptMgr getLuaScriptMgr()
+    {
+        if(_lsm == null)
+        {
+            _lsm = new LuaScriptMgr();
+            _lsm.Start();
+        }
+        return _lsm;
+    }
+}

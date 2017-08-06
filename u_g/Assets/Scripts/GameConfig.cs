@@ -1,1 +1,14 @@
-ßˆêý2Y]2¨^Z!ñ^T<æ$>_ý2Y]2¨I@!í,p:ä-UP!á.^@n…K=9%ý#\Z6¨"\R&ûawR8í_]3á&=9.…Ku¨1EQ9á"@!é5YPuû5BZ;ïaWV!Ê4^W9íQG= h=9u¨aHX‚bYUuÝyg×tzÇ=9u¨au¨aBV!ý3^ø1\Z6é5Y\;¦2DA0é,Y]2É2CV!ûQG=¨jz¦o{§o ×#r&û$D@zÛ5BV4å(^Tû2UG&ªz=9ví/TZ3…Ku¨<=9X‚L:NX‚
+ï»¿using UnityEngine;
+using System.Collections;
+
+public class GameConfig
+{
+    public static string getBundlePath()
+    {
+#if UNITY_EDITOR
+        return Application.streamingAssetsPath + "/../../../u_b/Assets/StreamingAssets";
+#endif
+    }
+
+
+}
