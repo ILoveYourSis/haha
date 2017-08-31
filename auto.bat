@@ -1,0 +1,1 @@
+"C:\Users\yh\Documents\visual studio 2015\Projects\encode\encode\bin\Debug\encode.exe"
